@@ -57,11 +57,3 @@ Ghost
 **PostgreSQL → Databricks Bronze → dbt Silver → dbt Gold**
 
 Airflow handles the orchestration of the different stages locally through Docker.
-
-### Architecture
-
-* **Bronze** — raw data ingested from PostgreSQL
-* **Silver** — cleaned, standardized and transformed data
-* **Gold** — business-ready datasets for analytics
-* **Airflow** — schedules and orchestrates the pipeline
-* **dbt** — manages transformations and dependencies between models
