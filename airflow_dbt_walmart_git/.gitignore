@@ -1,0 +1,24 @@
+# Local env and secrets
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+
+# Local runtime artifacts
+logs/
+**/logs/
+**/*.log
+walmart_project/logs/
+walmart_project/target/
+**/target/
+
+# Local dbt/airflow generated files
+walmart_project/.user.yml
+**/.user.yml
+config/airflow.cfg
+walmart_project/profiles.yml
+
+# Python
+__pycache__/
+*.pyc
